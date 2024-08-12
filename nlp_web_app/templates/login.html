@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NLP App || LogIn</title>
+</head>
+<body>
+<h1>NLP App</h1>
+<h3>LogIn Here </h3>
+{% if message %}
+<p style="color:green">{{message}}</p>
+{% endif %}
+<form>
+    <label>Email :</label><br>
+    <input type="Email"><br>
+    <label>Password :</label><br>
+    <input type="Password"><br><br>
+    <input type="Submit" value="login">
+</form>
+<p>Not a Member ? <a href="/register">Register Here</a></p>
+</body>
+</html>
