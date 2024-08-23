@@ -1,1 +1,1 @@
-<h1>NLP Web App </h1>
+<h1 align="center">NLP Web App </h1>
